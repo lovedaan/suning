@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <!-- 动态设置meta视口 和html字体大小 -->
+        <script type="text/javascript">
+           
+                resize();
+                window.addEventListener("resize",resize,false);
+                 function resize(){
+                    var iScale = 1 / window.devicePixelRatio;
+                     document.write('<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale='+ iScale +', maximum-scale='+ iScale +', minimum-scale='+ iScale +'" />');
+                     var iW = 0;
+                     if(navigator.userAgent.match(/(iPhone|iPod|Android|ios)/i)){
+                        //是移动端
+                       iW = document.documentElement.clientWidth;
+                    }
+                    else{
+                        //当在PC端浏览时，设置最大宽度640
+                        iW = 640;
+                    }
+                    document.getElementsByTagName("html")[0].style.fontSize = iW / 16 + 'px';
+                 }
+           
+        </script>
+        <link rel="stylesheet" type="text/css" href="css/index.css" />
+    </head>
+    <body>
+        <header class="head_box clearfiex">
+            <a href="##" class="btn_type"></a>
+            <div class="search_box">
+                <i class="icon_search"></i>
+                <form action="" class="search_form">
+                    <input type="text" placeholder="iPhone6s大降价" class="search_input" />
+                </form>
+            </div>
+            <a href="##" class="btn_car"></a>
+        </header>
+        <section class="wrap">
+            <!-- banner开始 -->
+            <div class="banner">
+                <ul class="imgList clearfiex">
+                    <li>
+                        <a href="##">
+                            <img src="images/banner_1.jpg" />
+                        </a>
+                    </li>
+                </ul>
+                <ul class="circles">
+                    <li class="cur"></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                </ul>
+            </div>
+            <!-- banner结束 -->
+            <!-- nav开始 -->
+            <nav class="nav">
+                <ul class="navList clearfiex">
+                    <li>
+                        <a href="##">
+                            <img src="images/nav_pic1.png"/>
+                            <strong class="nav_title">大聚惠</strong>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="##">
+                            <img src="images/nav_pic1.png"/>
+                            <strong class="nav_title">大聚惠</strong>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="##">
+                            <img src="images/nav_pic1.png"/>
+                            <strong class="nav_title">大聚惠</strong>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="##">
+                            <img src="images/nav_pic1.png"/>
+                            <strong class="nav_title">大聚惠</strong>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="##">
+                            <img src="images/nav_pic1.png"/>
+                            <strong class="nav_title">大聚惠</strong>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="##">
+                            <img src="images/nav_pic1.png"/>
+                            <strong class="nav_title">大聚惠</strong>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="##">
+                            <img src="images/nav_pic1.png"/>
+                            <strong class="nav_title">大聚惠</strong>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="##">
+                            <img src="images/nav_pic1.png"/>
+                            <strong class="nav_title">大聚惠</strong>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="##">
+                            <img src="images/nav_pic1.png"/>
+                            <strong class="nav_title">大聚惠</strong>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="##">
+                            <img src="images/nav_pic1.png"/>
+                            <strong class="nav_title">大聚惠</strong>
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+            <!-- nav结束 -->
+            <!-- 头条开始 -->
+            <div class="suning_tt clearfiex">
+                <div class="tt_logo"></div>
+                <div class="tt_line"></div>
+                <div class="right_tt">
+                    <p class="dark">哈哈哈哈哈哈哈哈哈哈</p>
+                    <p>哈哈哈哈哈哈哈哈哈哈</p>
+                    <p>哈哈哈哈哈哈哈哈哈哈</p>
+                    <p>哈哈哈哈哈哈哈哈哈哈</p>
+                    <p>哈哈哈哈哈哈哈哈哈哈</p>
+                    <p>哈哈哈哈哈哈哈哈哈哈</p>
+                    <p>哈哈哈哈哈哈哈哈哈哈</p>
+                    <p>哈哈哈哈哈哈哈哈哈哈</p>
+                    <p>哈哈哈哈哈哈哈哈哈哈</p>
+                    <p>哈哈哈哈哈哈哈哈哈哈</p>
+                </div>
+            </div>
+            <!-- 头条结束 -->
+            <div class="h15"></div>
+            <!-- 购物类型开始 -->
+            <div class="shoing_type">
+                <div class="hd_type">
+                    <a href="##" class="big_pic">
+                        <img src="images/shoping1.png" />
+                    </a>
+                    <a href="##" class="small_pic">
+                        <img src="images/shoping2.png" />
+                    </a>
+                    <a href="##" class="small_pic">
+                        <img src="images/shoping2.png" />
+                    </a>
+                </div>
+                <div class="fd_type">
+                    <ul class="fd_list clearfiex">
+                        <li><a href="##"><img src="images/shoping3.png"/></a></li>
+                        <li><a href="##"><img src="images/shoping3.png"/></a></li>
+                        <li><a href="##"><img src="images/shoping3.png"/></a></li>
+                        <li><a href="##"><img src="images/shoping3.png"/></a></li>
+                        <li><a href="##"><img src="images/shoping3.png"/></a></li>
+                        <li><a href="##"><img src="images/shoping3.png"/></a></li>
+                        <li><a href="##"><img src="images/shoping3.png"/></a></li>
+                        <li><a href="##"><img src="images/shoping3.png"/></a></li>
+                    </ul>
+                </div>
+            </div>
+            <!-- 购物类型结束 -->
+            <div class="h33"></div>
+            <!-- 抢购开始 -->
+            <div class="suning_qg">
+                <header class="head clearfiex">
+                    <div class="head_left">
+                        <h3 class="head_title"></h3>
+                        <div class="time_box">
+                            <span class="time_name">24点场</span>
+                            <div class="updeta_time">
+                                <sapn class="time_item">12</sapn>
+                                <span class="icon_s">:</span>
+                                <sapn class="time_item">30</sapn>
+                                <span class="icon_s">:</span>
+                                <sapn class="time_item time_red">59</sapn>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="head_right">
+                        <a href="##" class="more">吃货上新季</a>
+                        <i class="icon_more"></i>
+                    </div>
+                </header>
+                <div class="qg_box">
+                    <ul class="qg_list clearfiex">
+                        <li>
+                            <a href="##">
+                                <img src="images/qg_pic1.png"/>
+                            </a>
+                            <p>￥12.90</p>
+                            <p class="lastP">￥19.90</p>
+                            <span class="icon_tip"></span>
+                        </li>
+                        <li>
+                            <a href="##">
+                                <img src="images/qg_pic1.png"/>
+                            </a>
+                            <p>￥12.90</p>
+                            <p class="lastP">￥19.90</p>
+                            <span class="icon_tip"></span>
+                        </li>
+                        <li>
+                            <a href="##">
+                                <img src="images/qg_pic1.png"/>
+                            </a>
+                            <p>￥12.90</p>
+                            <p class="lastP">￥19.90</p>
+                            <span class="icon_tip"></span>
+                        </li>
+                        <li>
+                            <a href="##">
+                                <img src="images/qg_pic1.png"/>
+                            </a>
+                            <p>￥12.90</p>
+                            <p class="lastP">￥19.90</p>
+                            <span class="icon_tip"></span>
+                        </li>
+                        <li>
+                            <a href="##">
+                                <img src="images/qg_pic1.png"/>
+                            </a>
+                            <p>￥12.90</p>
+                            <p class="lastP">￥19.90</p>
+                            <span class="icon_tip"></span>
+                        </li>
+                        <li>
+                            <a href="##">
+                                <img src="images/qg_pic1.png"/>
+                            </a>
+                            <p>￥12.90</p>
+                            <p class="lastP">￥19.90</p>
+                            <span class="icon_tip"></span>
+                        </li>
+                        <li>
+                            <a href="##">
+                                <img src="images/qg_pic1.png"/>
+                            </a>
+                            <p>￥12.90</p>
+                            <p class="lastP">￥19.90</p>
+                            <span class="icon_tip"></span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <!-- 抢购结束 -->
+            <!-- 猜你喜欢开始 -->
+            <div class="suning_like">
+                <div class="like_title">
+                    <div class="left_line"></div>
+                    <h3>猜你喜欢</h3>
+                    <div class="right_line"></div>
+                </div>
+                <div class="like_list">
+                    <ul class="like_item clearfiex">
+                        <li>
+                            <a href="##">
+                                <img src="images/shoping_like1.png"alt="" />
+                            </a>
+                            <p class="like_text">加个很便宜啊啊加个很便宜啊啊加个很便宜啊啊加个很便宜啊啊加个很便宜啊啊加个很便宜啊啊</p>
+                            <p class="likeJ">￥89.8</p>
+                        </li>
+                        <li>
+                            <a href="##">
+                                <img src="images/shoping_like1.png"alt="" />
+                            </a>
+                            <p class="like_text">加个很便宜啊啊加个很便宜啊啊加个很便宜啊啊加个很便宜啊啊加个很便宜啊啊加个很便宜啊啊</p>
+                            <p class="likeJ">￥89.8</p>
+                        </li>
+                        <li>
+                            <a href="##">
+                                <img src="images/shoping_like1.png"alt="" />
+                            </a>
+                            <p class="like_text">加个很便宜啊啊加个很便宜啊啊加个很便宜啊啊加个很便宜啊啊加个很便宜啊啊加个很便宜啊啊</p>
+                            <p class="likeJ">￥89.8</p>
+                        </li>
+                        <li>
+                            <a href="##">
+                                <img src="images/shoping_like1.png"alt="" />
+                            </a>
+                            <p class="like_text">加个很便宜啊啊加个很便宜啊啊加个很便宜啊啊加个很便宜啊啊加个很便宜啊啊加个很便宜啊啊</p>
+                            <p class="likeJ">￥89.8</p>
+                        </li>
+                        <li>
+                            <a href="##">
+                                <img src="images/shoping_like1.png"alt="" />
+                            </a>
+                            <p class="like_text">加个很便宜啊啊加个很便宜啊啊加个很便宜啊啊加个很便宜啊啊加个很便宜啊啊加个很便宜啊啊</p>
+                            <p class="likeJ">￥89.8</p>
+                        </li>
+                        <li>
+                            <a href="##">
+                                <img src="images/shoping_like1.png"alt="" />
+                            </a>
+                            <p class="like_text">加个很便宜啊啊加个很便宜啊啊加个很便宜啊啊加个很便宜啊啊加个很便宜啊啊加个很便宜啊啊</p>
+                            <p class="likeJ">￥89.8</p>
+                        </li>
+                        <li>
+                            <a href="##">
+                                <img src="images/shoping_like1.png"alt="" />
+                            </a>
+                            <p class="like_text">加个很便宜啊啊加个很便宜啊啊加个很便宜啊啊加个很便宜啊啊加个很便宜啊啊加个很便宜啊啊</p>
+                            <p class="likeJ">￥89.8</p>
+                        </li>
+                        <li>
+                            <a href="##">
+                                <img src="images/shoping_like1.png"alt="" />
+                            </a>
+                            <p class="like_text">加个很便宜啊啊加个很便宜啊啊加个很便宜啊啊加个很便宜啊啊加个很便宜啊啊加个很便宜啊啊</p>
+                            <p class="likeJ">￥89.8</p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <!-- 猜你喜欢结束 -->
+            <!-- 广告开始 -->
+            <div class="ad">
+                <a href="##">
+                    <img src="images/ad1.png" alt="" />
+                </a>
+            </div>
+            <!-- 广告结束 -->
+            <!-- 尾部开始 -->
+            <footer class="footer">
+                <div class="footer_hd">
+                    <ul class="hd_list">
+                        <li><a href="##">登录</a></li>
+                        <li><a href="##">注册</a></li>
+                        <li><a href="##">电脑版</a></li>
+                        <li><a href="##">手机版</a></li>
+                        <li><a href="##">客户端</a></li>
+                    </ul>
+                </div>
+                <div class="footer_ft">
+                    <p>Copyright © 2002 -2016 苏宁 suning.com 版权所有</p>
+                </div>
+            </footer>
+            <!-- 尾部结束 -->
+        </section>
+    </body>
+</html>
